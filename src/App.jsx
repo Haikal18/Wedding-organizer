@@ -5,7 +5,8 @@ import AboutUsSection from './components/AboutUsSection'
 import OurServices from './components/OurServices'
 import MembershipPlan from './components/MembershipPlan'
 import ContactForm from './components/ContactForm'
-
+import Footer from './components/Footer'
+import ReviewCarousel from './components/ReviewCarousel'
 
 const App = () => {
   return (
@@ -15,7 +16,9 @@ const App = () => {
       <AboutUsSection/>
       <OurServices/>
       <MembershipPlan/>
+      <ReviewCarousel/>
       <ContactForm/>
+      <Footer/>
     </div>
   );
 };

@@ -3,6 +3,7 @@ import React from 'react';
 function WeddingBanner() {
   return (
     <div
+      id='home'
       className="relative h-screen bg-cover bg-center text-white"
       style={{
         backgroundImage: "url('/BannerWedingO.jpg')",
